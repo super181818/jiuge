@@ -1,17 +1,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <base href="http://x-d-y-3.oss-cn-hangzhou.aliyuncs.com"/>
+    <base href="http://x-s-s-3.oss-cn-hangzhou.aliyuncs.com"/>
     <link rel="icon" href="data:image/ico;base64,aWNv">
     <meta name="viewport"
           content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="format-detection" content="telephoner=no"/>
     <meta name="msapplication-tap-highlight" content="no"/>
     <title>手机用户列表</title>
-    <script type="text/javascript" src="/files/js/fastclick.js"></script>
-    <link rel="stylesheet" type="text/css" href="/files/css/alert.css">
-    <script type="text/javascript">
-		var _thost = 'http://' + window.location.host;
+     <script type="text/javascript">
+                var _thost = 'http://' + window.location.host;
         var pathArr = window.location.pathname.split("/");
         if(pathArr.length==3 && pathArr[1] != ""){
             if(pathArr[1].search(".html")!=-1){
@@ -19,10 +17,13 @@
             }else{
                 _thost = 'http://' + window.location.host + "/" + pathArr[1];
             }
-        }  
+        }
         var _tt = new Date().getTime();
-        document.write('<script type="text/javascript" src="' + _thost + '/js/config.js?v=' + _tt + '"> <\/script>');
-    </script>
+        document.write('<script type="text/javascript" src="' + _thost + '/js/config.js?v=1' + _tt + '"> <\/script>');
+    </script>   
+    <script type="text/javascript" src="/files/js/fastclick.js"></script>
+    <link rel="stylesheet" type="text/css" href="/files/css/alert.css">
+
     <script type="text/javascript" src="/js/load.js"></script>
     <style type="text/css">
         .buttonLeft2 {
